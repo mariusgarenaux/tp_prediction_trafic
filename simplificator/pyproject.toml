@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simplificator"
+version = "0.0.1"
+authors = [
+  { name="Marius Garénaux", email="marius.garenaux-gruau@irisa.fr" },
+]
+description = "A package to simplify the utilisation of pandas DataFrame and sklearn CategoricalNB."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://test_url.com"
+Issues = "https://test_url.com"
