@@ -1,13 +1,13 @@
 CONFIG = {
     "START_URL": "https://bacasable.fenix.rudi-univ-rennes1.fr/media/download",
 
-    "PATH_TRAIN_BIG_ONLINE": "/6b610a3f-418f-490b-a46a-205d2ba44647",
+    "PATH_TRAIN_BIG_ONLINE": "/d2f5f2f5-0c0a-4f93-a92c-098000abbd90",
     "PATH_TRAIN_BIG_LOCAL": "./data/traffic_big.csv",
 
-    "PATH_TRAIN_SMALL_ONLINE": "/e328e2a2-2e66-40ce-91c9-03cfbbeb53a1",
+    "PATH_TRAIN_SMALL_ONLINE": "/b3e8cab5-7bb4-435d-b0e1-44fa0af7e9e7",
     "PATH_TRAIN_SMALL_LOCAL" : "./data/traffic_small.csv",
 
-    "PATH_TRONCON_ONLINE" : "/04c0fa7c-0a72-4689-b950-cef2811302e2",
+    "PATH_TRONCON_ONLINE" : "/36271cc1-0a05-420d-b2ff-01e345232f95",
     "PATH_TRONCON_LOCAL" : "./data/troncons_rennes.csv",
     "PATH_CURRENT_ONLINE" : "https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/csv?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B",
     "PATH_CURRENT_LOCAL" : "./data/traffic_current.csv",

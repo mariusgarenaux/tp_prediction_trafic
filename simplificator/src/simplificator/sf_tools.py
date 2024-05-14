@@ -126,7 +126,7 @@ def nouveau_tableau(lignes: list[list], colonnes: list[str]) -> SfDataFrame:
     df = pd.DataFrame(lignes, columns=colonnes)
     return SfDataFrame(df = df)
 
-def rajouter_couleur_depuis_etat_trafic(sdf: SfDataFrame):
+def rajouter_couleur_depuis_etat_trafic(sdf: SfGeoDataFrame):
     """
     Specification of SfGeoDataFrame rajouter_couleur, when there is a column named 'etat_trafic' with values from DICT_ETAT_TRAFIC_TO_COLOR.
     """
